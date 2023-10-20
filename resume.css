@@ -6,6 +6,9 @@ background-color:black;
 .navbar{
 background-color: black;
 overflow: hidden;
+position: fixed;
+top: 0;
+width:100%;
 }
 
 .navbar a{
@@ -49,4 +52,34 @@ border: none;
 border-top: 5px dashed white;
 }
 
+h2.education{
+color:#E95793;
+}
 
+p.grad{
+
+}
+
+.fo{
+color:white;
+padding-top:60px;
+padding-left:20px;
+font-size:15px;
+}
+
+.fo p{
+font-size:15px;
+}
+
+h2.proj{
+color:#E1AA74;
+}
+
+footer p{
+color:white;
+font-size:15px;
+padding-top: 60px;
+padding-left:25px;
+}
+
+.main{margin-top:120px;}
