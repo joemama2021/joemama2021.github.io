@@ -1,0 +1,55 @@
+body{
+font-family:Rockwell;
+background-color:black;
+}
+
+.navbar{
+background-color: black;
+overflow: hidden;
+}
+
+.navbar a{
+float: right;
+color: #F1EFEF;
+text-align: center;
+padding: 14px 20px;
+}
+
+
+ul.navbar_{
+list-style-type: none;
+}
+
+ul.navbar_ a.active{color:green;}
+
+a{
+text-decoration: none;
+}
+
+.infotext{margin-left:50px;}
+
+.subtext{
+margin-left:50px;
+margin-right:150px;
+}
+
+.hi p{
+margin-top:1px;
+margin-bottom:1px;
+margin-left:50px;
+font-size: 160px;
+color:#F1EFEF;
+}
+
+.infotext p{
+margin-top:1px;
+margin-bottom:1px;
+font-size: 50px;
+color:#F1EFEF;
+}
+
+.subtext p{
+color:#F1EFEF;
+font-size:20px;
+}
+
