@@ -71,6 +71,12 @@ font-size:15px;
 font-size:15px;
 }
 
+h1{
+color:#F1EFEF;
+font-size:60px;
+padding-top:50px;
+}
+
 h2.proj{
 color:#E1AA74;
 }
@@ -82,4 +88,13 @@ padding-top: 60px;
 padding-left:25px;
 }
 
-.main{margin-top:120px;}
+.main{
+margin-top:120px;
+padding-top:100px;
+}
+
+h2.cert{
+color:#A6FF96;
+}
+
+

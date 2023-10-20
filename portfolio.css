@@ -1,0 +1,68 @@
+body{
+font-family:Rockwell;
+background-color:black;
+}
+
+.navbar{
+background-color: black;
+overflow: hidden;
+position: fixed;
+top: 0;
+width:100%;
+}
+
+.navbar a{
+float: right;
+color: #F1EFEF;
+text-align: center;
+padding: 14px 20px;
+}
+
+
+ul.navbar_{
+list-style-type: none;
+}
+
+ul.navbar_ a.active{color:green;}
+
+a{
+text-decoration: none;
+}
+
+footer p{
+color:white;
+font-size:15px;
+padding-top: 60px;
+padding-left:25px;
+}
+
+.main{
+margin-top:120px;
+margin-left:50px;
+margin-right:120px;
+}
+
+.port{
+color:#F1EFEF;
+font-size:60px;
+}
+
+.tabl{
+color:white;
+margin-left:120px;
+
+}
+
+.tabl a{
+color:#F1EFEF;
+text-decoration:none;
+font-size:20px;
+}
+
+.tabl td{
+color:#F1EFEF;
+font-size:15px;
+padding-left:20px;
+padding-right:20px;
+text-align:center;
+}
