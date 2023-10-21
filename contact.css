@@ -41,9 +41,27 @@ padding-left:25px;
 h1{
 color:#F1EFEF;
 font-size:60px;
+
 }
 
 .main p{
 font-size:15px;
+color:#F1EFEF;
+}
+
+.main{
+margin-left:50px;
+}
+
+h2{
+color:#F1EFEF;
+}
+
+p.mail{
+color:#F1EFEF;
+font-size: 20px;
+}
+
+p.mail a{
 color:#F1EFEF;
 }
