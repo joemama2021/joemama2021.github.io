@@ -1,100 +1,130 @@
-body{
-font-family:Rockwell;
-background-color:black;
+/* Common styles for all screen sizes */
+body {
+    font-family: Rockwell;
+    background-color: black;
+    color: #F1EFEF; /* Text color for better readability */
 }
 
-.navbar{
-background-color: black;
-overflow: hidden;
-position: fixed;
-top: 0;
-width:100%;
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-.navbar a{
-float: right;
-color: #F1EFEF;
-text-align: center;
-padding: 14px 20px;
+.navbar a {
+    float: right;
+    color: #F1EFEF;
+    text-align: center;
+    padding: 14px 20px;
 }
 
-ul.navbar_{
-list-style-type: none;
+ul.navbar_ {
+    list-style-type: none;
 }
 
-ul.navbar_ a.active{color:green;}
-
-a{
-text-decoration: none;
-display: block;
-
+ul.navbar_ a.active {
+    color: green;
 }
 
-.container{
-color: #F1EFEF;
-margin-left: 50px;
-margin-right: 120px;
+a {
+    text-decoration: none;
+    display: block;
 }
 
-h1{
-font-size:50px;
+.container {
+    margin-left: 20px; /* Adjusted for smaller screens */
+    margin-right: 20px; /* Adjusted for smaller screens */
 }
 
-p{
-font-size:20px;
-}
-h2{
-color:#98E4FF;
+h1 {
+    font-size: 40px; /* Reduced font size for smaller screens */
 }
 
-hr{
-border: none;
-border-top: 5px dashed white;
+p {
+    font-size: 16px; /* Adjusted font size for better readability */
 }
 
-h2.education{
-color:#E95793;
+h2 {
+    color: #98E4FF;
 }
 
-p.grad{
-
+hr {
+    border: none;
+    border-top: 3px dashed white; /* Adjusted border size for smaller screens */
 }
 
-.fo{
-color:white;
-padding-top:60px;
-padding-left:20px;
-font-size:15px;
+h2.education {
+    color: #E95793;
 }
 
-.fo p{
-font-size:15px;
+p.grad {
+    /* Add styles specific to graduation information */
 }
 
-h1{
-color:#F1EFEF;
-font-size:60px;
-padding-top:50px;
+.fo {
+    color: white;
+    padding: 20px;
+    font-size: 14px; /* Adjusted font size for better readability */
 }
 
-h2.proj{
-color:#E1AA74;
+h1 {
+    color: #F1EFEF;
+    font-size: 50px; /* Adjusted font size for smaller screens */
+    padding-top: 30px; /* Reduced padding for smaller screens */
 }
 
-footer p{
-color:white;
-font-size:15px;
-padding-top: 60px;
-padding-left:25px;
+h2.proj {
+    color: #E1AA74;
 }
 
-.main{
-margin-top:120px;
-padding-top:100px;
+footer p {
+    color: white;
+    font-size: 14px; /* Adjusted font size for better readability */
+    padding: 20px;
 }
 
-h2.cert{
-color:#A6FF96;
+.main {
+    margin-top: 80px; /* Reduced margin for smaller screens */
+    padding-top: 50px; /* Reduced padding for smaller screens */
 }
 
+h2.cert {
+    color: #A6FF96;
+}
 
+/* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
+    .container {
+        margin-left: 10px; /* Adjust margins for smaller screens */
+        margin-right: 10px; /* Adjust margins for smaller screens */
+    }
+
+    h1 {
+        font-size: 30px; /* Adjusted font size for smaller screens */
+        padding-top: 20px; /* Reduced padding for smaller screens */
+    }
+
+    p {
+        font-size: 14px; /* Adjusted font size for smaller screens */
+    }
+
+    hr {
+        border-top: 2px dashed white; /* Adjusted border size for smaller screens */
+    }
+
+    .fo {
+        font-size: 12px; /* Adjusted font size for smaller screens */
+        padding: 10px;
+    }
+
+    footer p {
+        font-size: 12px; /* Adjusted font size for smaller screens */
+        padding: 10px;
+    }
+
+    h2, h2.education, h2.proj, h2.cert {
+        font-size: 24px; /* Adjusted font size for smaller screens */
+    }
+}
